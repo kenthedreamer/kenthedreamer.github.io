@@ -1,0 +1,111 @@
+/* 
+
+Project Name: My Profile 
+Client: Ken Kim
+Author: Ken Kim  
+
+*/
+
+html {
+	/* set up a background image */
+	
+	background: url('../images/adrian-sulyok-InMD-APxayI-unsplash.jpg') no-repeat;
+
+	
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	font-size: 40px;
+ 	font-family: 'Rock Salt', cursive;
+}
+
+h2 {
+	background: url('../images/amazon logo.jpg') no-repeat;
+	padding: 10px;
+	border-radius: 10px;
+	color: black;
+	font-size: 1.33333rem;
+    line-height: 2rem;
+	font-family: 'Yantramanav', sans-serif;
+}
+
+h3 {
+	text-align: center;
+}
+
+h4 {
+	color: rgba(0, 0, 0, 1);
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 1.33333rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+p {
+	color: rgba(100, 100, 100, 1);
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 1.33333rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+a {
+	color: #35C0F2;
+	text-decoration: none;
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 1.33333rem;
+  line-height: 2rem;
+}
+
+a:hover {
+	color: rgba(255, 0, 0, 1);
+}
+
+#container {
+	background: rgba(255, 255, 255, 0.85);
+	border-radius: 10px;
+	padding: 30px;
+	width: 800px;
+	color: black;
+	margin: 30px;
+	}
+
+.job {
+	color: rgba(0, 0, 0, 1);
+	font-weight: 900;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #cd486b;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
